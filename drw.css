@@ -1,0 +1,47 @@
+body{
+background:#aaaaee;
+}
+canvas{
+box-shadow: 1px 1px 10px 0px white;
+border-radius:3px;
+}
+button,input{
+border:none;
+outline: none;
+background: none;
+}
+button {
+box-shadow:1px 1px 2px 0px lightgrey;
+padding:10px;
+width:48.9%;
+background:#5511ff;
+color:#eeeeff;
+font-size:larger;
+font-family:Verdana,Arial,sans-serif;
+border-radius:4px;
+}
+#lineHTML {
+background:#ff1155;
+}
+input{
+height:25px;
+width:30px;
+box-shadow:1px 1px 5px 0px lightrey;
+color:white;
+}
+#width{
+padding:2px;
+box-shadow:0px 0px 3px 50px lightgrey !important;
+}
+label{
+padding-right:15px;
+color:#330088;
+font-family:Courier new,monospace;
+}
+span{
+padding:10px;
+color:#ff0d8a;
+}
+h3{
+text-align:center;
+}

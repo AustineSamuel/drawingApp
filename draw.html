@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="drw.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+      canvas{
+        width:100%;
+        height:100%;
+        border:1px solid #ccccee;
+        padding-top:5px;
+        padding-bottom:5px;
+        background:#ccccff
+      }
+    </style>
+</head>
+
+<body>
+
+<canvas></canvas>
+
+<p></p>
+<div id="inputs">
+
+<label for="size">Set line width:</label>
+<input id="size" type="number" placeholder="tap.."  id="width"> : <span id="widthV">2 </span>
+<br>
+
+<label for="offset">Set offSet Y-axis:</label>
+<input id="offset" type="number" placeholder="tap.."  id="width"> : <span id="offSetV">0 </span>
+<br>
+
+<label for="color">Set line color:</label>
+<input id="color" type="color"><span id="colorV">#000000</span><br>
+
+
+
+</div><br>
+<button onclick="clearAll()">clear board</button>
+<button id="lineHTML" onclick="useLine()">use line</button>
+</body>
+<script src="drw.js"> 
+</script>
+</html>
